@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aldermere Statistics — National Statistics Office of Aldermere</title>
+<meta name="description" content="Official statistics for Aldermere: population, economy, prices, trade, health, education and regions, published by the Aldermere National Statistics Office.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/">Aldermere Statistics<small>National Statistics Office of Aldermere</small></a>
+    <div class="searchbox">
+      <input id="search" type="text" placeholder="Search indicators, e.g. inflation" autocomplete="off" aria-label="Search indicators">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
+  </div>
+  <nav class="mainnav" id="mainnav" aria-label="Sections">
+    <a href="#/" data-route="">Dashboard</a>
+    <a href="#/population" data-route="population">Population</a>
+    <a href="#/economy" data-route="economy">Economy</a>
+    <a href="#/prices" data-route="prices">Prices</a>
+    <a href="#/trade" data-route="trade">Trade</a>
+    <a href="#/health" data-route="health">Health</a>
+    <a href="#/education" data-route="education">Education</a>
+    <a href="#/regions" data-route="regions">Regions</a>
+    <a href="#/releases" data-route="releases">Releases</a>
+    <a href="#/methods" data-route="methods">Methods</a>
+  </nav>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer class="site">
+  <p>Aldermere Statistics is the publishing site of the Aldermere National Statistics Office, Dunmere.
+  All figures are free to reuse with the source line “Source: Aldermere National Statistics Office”.
+  This is a demonstration site for the fictional country of Aldermere; no figure describes a real country.</p>
+  <p><a href="#/methods">Methods &amp; sources</a> · <a href="#/releases">Release calendar</a> · Updated 26 November 2026</p>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
